@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4815A10618AB46CB007F35F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4815A10518AB46CB007F35F6 /* Foundation.framework */; };
+		4815A10818AB46CB007F35F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4815A10718AB46CB007F35F6 /* CoreGraphics.framework */; };
+		4815A10A18AB46CB007F35F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4815A10918AB46CB007F35F6 /* UIKit.framework */; };
+		4815A10C18AB46CB007F35F6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4815A10B18AB46CB007F35F6 /* CoreData.framework */; };
+		4815A11218AB46CB007F35F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4815A11018AB46CB007F35F6 /* InfoPlist.strings */; };
+		4815A11418AB46CB007F35F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4815A11318AB46CB007F35F6 /* main.m */; };
+		4815A11818AB46CB007F35F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4815A11718AB46CB007F35F6 /* AppDelegate.m */; };
+		4815A11B18AB46CB007F35F6 /* MoneyGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4815A11918AB46CB007F35F6 /* MoneyGame.xcdatamodeld */; };
+		4815A11D18AB46CB007F35F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4815A11C18AB46CB007F35F6 /* Images.xcassets */; };
+		4815A12418AB46CB007F35F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4815A12318AB46CB007F35F6 /* XCTest.framework */; };
+		4815A12518AB46CB007F35F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4815A10518AB46CB007F35F6 /* Foundation.framework */; };
+		4815A12618AB46CB007F35F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4815A10918AB46CB007F35F6 /* UIKit.framework */; };
+		4815A12718AB46CB007F35F6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4815A10B18AB46CB007F35F6 /* CoreData.framework */; };
+		4815A12F18AB46CB007F35F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4815A12D18AB46CB007F35F6 /* InfoPlist.strings */; };
+		4815A13118AB46CB007F35F6 /* MoneyGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4815A13018AB46CB007F35F6 /* MoneyGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4815A12818AB46CB007F35F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4815A0FA18AB46CB007F35F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4815A10118AB46CB007F35F6;
+			remoteInfo = MoneyGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4815A10218AB46CB007F35F6 /* MoneyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4815A10518AB46CB007F35F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4815A10718AB46CB007F35F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4815A10918AB46CB007F35F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4815A10B18AB46CB007F35F6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4815A10F18AB46CB007F35F6 /* MoneyGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyGame-Info.plist"; sourceTree = "<group>"; };
+		4815A11118AB46CB007F35F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4815A11318AB46CB007F35F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4815A11518AB46CB007F35F6 /* MoneyGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoneyGame-Prefix.pch"; sourceTree = "<group>"; };
+		4815A11618AB46CB007F35F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4815A11718AB46CB007F35F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4815A11A18AB46CB007F35F6 /* MoneyGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyGame.xcdatamodel; sourceTree = "<group>"; };
+		4815A11C18AB46CB007F35F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4815A12218AB46CB007F35F6 /* MoneyGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4815A12318AB46CB007F35F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4815A12C18AB46CB007F35F6 /* MoneyGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyGameTests-Info.plist"; sourceTree = "<group>"; };
+		4815A12E18AB46CB007F35F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4815A13018AB46CB007F35F6 /* MoneyGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4815A0FF18AB46CB007F35F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4815A10818AB46CB007F35F6 /* CoreGraphics.framework in Frameworks */,
+				4815A10C18AB46CB007F35F6 /* CoreData.framework in Frameworks */,
+				4815A10A18AB46CB007F35F6 /* UIKit.framework in Frameworks */,
+				4815A10618AB46CB007F35F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4815A11F18AB46CB007F35F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4815A12418AB46CB007F35F6 /* XCTest.framework in Frameworks */,
+				4815A12718AB46CB007F35F6 /* CoreData.framework in Frameworks */,
+				4815A12618AB46CB007F35F6 /* UIKit.framework in Frameworks */,
+				4815A12518AB46CB007F35F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4815A0F918AB46CB007F35F6 = {
+			isa = PBXGroup;
+			children = (
+				4815A10D18AB46CB007F35F6 /* MoneyGame */,
+				4815A12A18AB46CB007F35F6 /* MoneyGameTests */,
+				4815A10418AB46CB007F35F6 /* Frameworks */,
+				4815A10318AB46CB007F35F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4815A10318AB46CB007F35F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4815A10218AB46CB007F35F6 /* MoneyGame.app */,
+				4815A12218AB46CB007F35F6 /* MoneyGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4815A10418AB46CB007F35F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4815A10518AB46CB007F35F6 /* Foundation.framework */,
+				4815A10718AB46CB007F35F6 /* CoreGraphics.framework */,
+				4815A10918AB46CB007F35F6 /* UIKit.framework */,
+				4815A10B18AB46CB007F35F6 /* CoreData.framework */,
+				4815A12318AB46CB007F35F6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4815A10D18AB46CB007F35F6 /* MoneyGame */ = {
+			isa = PBXGroup;
+			children = (
+				4815A11618AB46CB007F35F6 /* AppDelegate.h */,
+				4815A11718AB46CB007F35F6 /* AppDelegate.m */,
+				4815A11C18AB46CB007F35F6 /* Images.xcassets */,
+				4815A11918AB46CB007F35F6 /* MoneyGame.xcdatamodeld */,
+				4815A10E18AB46CB007F35F6 /* Supporting Files */,
+			);
+			path = MoneyGame;
+			sourceTree = "<group>";
+		};
+		4815A10E18AB46CB007F35F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4815A10F18AB46CB007F35F6 /* MoneyGame-Info.plist */,
+				4815A11018AB46CB007F35F6 /* InfoPlist.strings */,
+				4815A11318AB46CB007F35F6 /* main.m */,
+				4815A11518AB46CB007F35F6 /* MoneyGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4815A12A18AB46CB007F35F6 /* MoneyGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				4815A13018AB46CB007F35F6 /* MoneyGameTests.m */,
+				4815A12B18AB46CB007F35F6 /* Supporting Files */,
+			);
+			path = MoneyGameTests;
+			sourceTree = "<group>";
+		};
+		4815A12B18AB46CB007F35F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4815A12C18AB46CB007F35F6 /* MoneyGameTests-Info.plist */,
+				4815A12D18AB46CB007F35F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4815A10118AB46CB007F35F6 /* MoneyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4815A13418AB46CB007F35F6 /* Build configuration list for PBXNativeTarget "MoneyGame" */;
+			buildPhases = (
+				4815A0FE18AB46CB007F35F6 /* Sources */,
+				4815A0FF18AB46CB007F35F6 /* Frameworks */,
+				4815A10018AB46CB007F35F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyGame;
+			productName = MoneyGame;
+			productReference = 4815A10218AB46CB007F35F6 /* MoneyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4815A12118AB46CB007F35F6 /* MoneyGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4815A13718AB46CB007F35F6 /* Build configuration list for PBXNativeTarget "MoneyGameTests" */;
+			buildPhases = (
+				4815A11E18AB46CB007F35F6 /* Sources */,
+				4815A11F18AB46CB007F35F6 /* Frameworks */,
+				4815A12018AB46CB007F35F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4815A12918AB46CB007F35F6 /* PBXTargetDependency */,
+			);
+			name = MoneyGameTests;
+			productName = MoneyGameTests;
+			productReference = 4815A12218AB46CB007F35F6 /* MoneyGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4815A0FA18AB46CB007F35F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = com.uzoo;
+				TargetAttributes = {
+					4815A12118AB46CB007F35F6 = {
+						TestTargetID = 4815A10118AB46CB007F35F6;
+					};
+				};
+			};
+			buildConfigurationList = 4815A0FD18AB46CB007F35F6 /* Build configuration list for PBXProject "MoneyGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4815A0F918AB46CB007F35F6;
+			productRefGroup = 4815A10318AB46CB007F35F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4815A10118AB46CB007F35F6 /* MoneyGame */,
+				4815A12118AB46CB007F35F6 /* MoneyGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4815A10018AB46CB007F35F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4815A11218AB46CB007F35F6 /* InfoPlist.strings in Resources */,
+				4815A11D18AB46CB007F35F6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4815A12018AB46CB007F35F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4815A12F18AB46CB007F35F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4815A0FE18AB46CB007F35F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4815A11818AB46CB007F35F6 /* AppDelegate.m in Sources */,
+				4815A11B18AB46CB007F35F6 /* MoneyGame.xcdatamodeld in Sources */,
+				4815A11418AB46CB007F35F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4815A11E18AB46CB007F35F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4815A13118AB46CB007F35F6 /* MoneyGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4815A12918AB46CB007F35F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4815A10118AB46CB007F35F6 /* MoneyGame */;
+			targetProxy = 4815A12818AB46CB007F35F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4815A11018AB46CB007F35F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4815A11118AB46CB007F35F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4815A12D18AB46CB007F35F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4815A12E18AB46CB007F35F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4815A13218AB46CB007F35F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4815A13318AB46CB007F35F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4815A13518AB46CB007F35F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyGame/MoneyGame-Prefix.pch";
+				INFOPLIST_FILE = "MoneyGame/MoneyGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4815A13618AB46CB007F35F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyGame/MoneyGame-Prefix.pch";
+				INFOPLIST_FILE = "MoneyGame/MoneyGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4815A13818AB46CB007F35F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoneyGame.app/MoneyGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyGame/MoneyGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MoneyGameTests/MoneyGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4815A13918AB46CB007F35F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoneyGame.app/MoneyGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyGame/MoneyGame-Prefix.pch";
+				INFOPLIST_FILE = "MoneyGameTests/MoneyGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4815A0FD18AB46CB007F35F6 /* Build configuration list for PBXProject "MoneyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4815A13218AB46CB007F35F6 /* Debug */,
+				4815A13318AB46CB007F35F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4815A13418AB46CB007F35F6 /* Build configuration list for PBXNativeTarget "MoneyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4815A13518AB46CB007F35F6 /* Debug */,
+				4815A13618AB46CB007F35F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4815A13718AB46CB007F35F6 /* Build configuration list for PBXNativeTarget "MoneyGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4815A13818AB46CB007F35F6 /* Debug */,
+				4815A13918AB46CB007F35F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4815A11918AB46CB007F35F6 /* MoneyGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4815A11A18AB46CB007F35F6 /* MoneyGame.xcdatamodel */,
+			);
+			currentVersion = 4815A11A18AB46CB007F35F6 /* MoneyGame.xcdatamodel */;
+			path = MoneyGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4815A0FA18AB46CB007F35F6 /* Project object */;
+}
